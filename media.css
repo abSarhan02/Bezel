@@ -1,0 +1,38 @@
+@media (max-width: 767.98px) {
+
+    /** GENERAL */
+    .fs-xl {
+        font-size: 5rem;
+    }
+
+    /** WHO WE ARE */
+    .about .fake-btn a:hover {
+        background-color: black;
+        color: white !important;
+    }
+
+    .about p {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .about .txt {
+        width: 100%;
+    }
+
+    /** WORKS */
+    .card-scale {
+        transform: scale(1);
+    }
+
+    .single-item {
+        width: 75%;
+        margin: auto;
+    }
+
+    /** CAROUSEL */
+    .arrows .carousel-control-prev,
+    .arrows .carousel-control-next {
+        display: none;
+    }
+}
